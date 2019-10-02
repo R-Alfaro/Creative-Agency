@@ -1,0 +1,35 @@
+{
+     "sectionTitle": "Pricing Table",
+     "pricingList": [
+          {
+               "key": 0,
+               "plan": "Basic Plan",
+               "amount": "$9",
+               "duration": "/ Month",
+               "diskSpace": "1GB Disk Space",
+               "emailLimit": "100 Email Account",
+               "support": "(8 to 5) CustomerSupport",
+               "purchaseBtn": "Purchase Now"
+          },
+          {
+               "key": 1,
+               "plan": "Silver Plan",
+               "amount": "$19",
+               "duration": "/ Month",
+               "diskSpace": "2.5GB Disk Space",
+               "emailLimit": "250 Email Account",
+               "support": "24/24 Customer Support",
+               "purchaseBtn": "Purchase Now"
+          },
+          {
+               "key": 2,
+               "plan": "Gold Plan",
+               "amount": "$29",
+               "duration": "/ Month",
+               "diskSpace": "5GB Disk Space",
+               "emailLimit": "Unlimited Email Account",
+               "support": "24/24 Customer Support",
+               "purchaseBtn": "Purchase Now"
+          }
+     ]
+}

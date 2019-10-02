@@ -1,0 +1,23 @@
+{
+    "sectionTitle": "Our Team",
+    "TeamList": [
+        {
+            "key": 0,
+            "image": "./img/team1.jpg",
+            "user": "Trevor Smith",
+            "title": "It manager"
+        },
+        {
+            "key": 1,
+            "image": "./img/team2.jpg",
+            "user": "John Blanc",
+            "title": "Database Manager"
+        },
+        {
+            "key": 2,
+            "image": "./img/team3.jpg",
+            "user": "Mike Avalos",
+            "title": "Web Designer"
+        }
+    ]
+}

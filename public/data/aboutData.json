@@ -1,0 +1,26 @@
+{
+    "sectionTitle": "Welcome to Website",
+    "aboutList": [
+        {
+            "key": 0,
+            "image": "fa fa-cogs",
+            "title": "'Fully - Customizible",
+            "content": "Uno Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.",
+            "href": "Read more"
+        },
+        {
+            "key": 1,
+            "image": "fa fa-magic",
+            "title": "'Awesome - Features",
+            "content": "Dos Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.",
+            "href": "Read more"
+        },
+        {
+            "key": 2,
+            "image": "fa fa-mobile",
+            "title": "'Fully - Responsive",
+            "content": "Tres Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.",
+            "href": "Read more"
+        }
+    ]
+}

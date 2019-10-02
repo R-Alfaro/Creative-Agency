@@ -1,0 +1,41 @@
+{
+     "sectionTitle": "What we offer",
+     "serviceList": [
+          {
+               "key": 0,
+               "title": "App Development",
+               "content": "'Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero",
+               "serviceIcon": "fa fa-diamond"
+          },
+          {
+               "key": 1,
+               "title": "Graphic Design",
+               "content": "'Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero",
+               "serviceIcon": "fa fa-rocket"
+          },
+          {
+               "key": 2,
+               "title": "Creative Idea",
+               "content": "'Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero",
+               "serviceIcon": "fa fa-cogs"
+          },
+          {
+               "key": 3,
+               "title": "Marketing",
+               "content": "'Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero",
+               "serviceIcon": "fa fa-futbol-o"
+          },
+          {
+               "key": 4,
+               "title": "Awesome Support",
+               "content": "'Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero",
+               "serviceIcon": "fa fa-pencil"
+          },
+          {
+               "key": 5,
+               "title": "Brand Design",
+               "content": "'Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero",
+               "serviceIcon": "fa fa-flask"
+          }
+     ]
+}

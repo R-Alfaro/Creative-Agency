@@ -1,0 +1,53 @@
+{
+     "sectionTitle": "Portfolio Featured Works",
+     "portfolioList": [
+          {
+               "key": 0,
+               "image": "./img/work1.jpg",
+               "title": "Lorem ipsum dolor 1",
+               "category": "Category - 1",
+               "externalLinkIcon": "fa fa-external-link",
+               "searchIcon": "fa fa-search"
+          },
+          {
+               "key": 1,
+               "image": "./img/work2.jpg",
+               "title": "Lorem ipsum dolor 2",
+               "category": "Category - 2",
+               "externalLinkIcon": "fa fa-external-link",
+               "searchIcon": "fa fa-search"
+          },
+          {
+               "key": 2,
+               "image": "./img/work3.jpg",
+               "title": "Lorem ipsum dolor 3",
+               "category": "Category - 3",
+               "externalLinkIcon": "fa fa-external-link",
+               "searchIcon": "fa fa-search"
+          },
+          {
+               "key": 3,
+               "image": "./img/work4.jpg",
+               "title": "Lorem ipsum dolor 4",
+               "category": "Category - 4",
+               "externalLinkIcon": "fa fa-external-link",
+               "searchIcon": "fa fa-search"
+          },
+          {
+               "key": 4,
+               "image": "./img/work5.jpg",
+               "title": "Lorem ipsum dolor 5",
+               "category": "Category - 5",
+               "externalLinkIcon": "fa fa-external-link",
+               "searchIcon": "fa fa-search"
+          },
+          {
+               "key": 5,
+               "image": "./img/work6.jpg",
+               "title": "Lorem ipsum dolor 6",
+               "category": "Category - 6",
+               "externalLinkIcon": "fa fa-external-link",
+               "searchIcon": "fa fa-search"
+          }
+     ]
+}

@@ -1,0 +1,29 @@
+{
+    "sectionTitle": "Our Team",
+    "NumbersList": [
+        {
+            "key": 0,
+            "icon": "fa fa-users",
+            "counter": "541",
+            "content": "Happy clients"
+        },
+        {
+            "key": 1,
+            "icon": "fa fa-trophy",
+            "counter": "12",
+            "content": "Awards won"
+        },
+        {
+            "key": 2,
+            "icon": "fa fa-coffee",
+            "counter": "154",
+            "content": "Cups of Coffee"
+        },
+        {
+            "key": 3,
+            "icon": "fa fa-file",
+            "counter": "45",
+            "content": "Projects completed"
+        }
+    ]
+}

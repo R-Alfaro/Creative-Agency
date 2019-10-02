@@ -1,0 +1,21 @@
+{
+    "sectionOverlay": "Welcome to Website",
+    "sectionTitle": "Testimonial",
+    "sectionBackground": "./img/background3.jpg",
+    "testimonialList": [
+        {
+            "key": 0,
+            "image": "./img/perso1.jpg",
+            "title": "Web Designer",
+            "content": "Uno Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.",
+            "name": "John Doe"
+        },
+        {
+            "key": 1,
+            "image": "./img/perso2.jpg",
+            "title": "Web Developer",
+            "content": "Dos Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.",
+            "Name": "Mie Smith"
+        }
+    ]
+}

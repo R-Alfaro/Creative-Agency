@@ -1,0 +1,52 @@
+{
+     "sectionTitle": "Why Choose Us",
+     "sectionContect": "Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.",
+     "imageList": [
+          {
+               "key": 0,
+               "image": "./img/about1.jpg"
+          },
+          {
+               "key": 1,
+               "image": "./img/about2.jpg"
+          },
+          {
+               "key": 2,
+               "image": "./img/about1.jpg"
+          },
+          {
+               "key": 3,
+               "image": "./img/about2.jpg"
+          },
+          {
+               "key": 4,
+               "image": "./img/about1.jpg"
+          },
+          {
+               "key": 5,
+               "image": "./img/about2.jpg"
+          }
+     ],
+     "featureList": [
+          {
+               "key": 0,
+               "Icon": "fa fa-check",
+               "item": "Quis varius quam quisque id diam vel quam elementum."
+          },
+          {
+               "key": 1,
+               "Icon": "fa fa-check",
+               "item": "Mauris augue neque gravida in fermentum."
+          },
+          {
+               "key": 2,
+               "Icon": "fa fa-check",
+               "item": "Orci phasellus egestas tellus rutrum."
+          },
+          {
+               "key": 3,
+               "Icon": "fa fa-check",
+               "item": "Nec feugiat nisl pretium fusce id velit ut tortor pretium."
+          }
+     ]
+}

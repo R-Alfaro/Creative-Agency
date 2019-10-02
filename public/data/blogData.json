@@ -1,0 +1,35 @@
+{
+     "sectionTitle": "Recents News",
+     "blogList": [
+          {
+               "key": 0,
+               "image": "./img/blog1.jpg",
+               "user": "John doe",
+               "clock": "18 Oct",
+               "comments": "57",
+               "title": "Uno Molestie at elementum eu facilisis sed odio",
+               "content": "Uno Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.",
+               "href": "Read more"
+          },
+          {
+               "key": 1,
+               "image": "./img/blog2.jpg",
+               "user": "Mike Smith",
+               "clock": "18 Nov",
+               "comments": "12",
+               "title": "Dos Molestie at elementum eu facilisis sed odio",
+               "content": "Uno Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.",
+               "href": "Read more"
+          },
+          {
+               "key": 2,
+               "image": "./img/blog3.jpg",
+               "user": "Sallie Mae",
+               "clock": "18 Dev",
+               "comments": "32",
+               "title": "Tres Molestie at elementum eu facilisis sed odio",
+               "content": "Uno Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.",
+               "href": "Read more"
+          }
+     ]
+}
