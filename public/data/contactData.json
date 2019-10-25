@@ -1,0 +1,30 @@
+{
+     "sectionTitle": "Get in touch",
+     "placeholders": {
+          "formPlaceholderName": "Name",
+          "formPlaceholderEmail": "Email",
+          "formPlaceholderSubject": "Subject",
+          "formPlaceholderMessage": "Message",
+          "formPlaceholderButton": "Send Message"
+     },
+     "contactList": [
+          {
+               "key": 0,
+               "icon": "fa fa-phone",
+               "contactType": "Phone",
+               "contactInfo": "512-421-3940"
+          },
+          {
+               "key": 1,
+               "icon": "fa fa-envelope",
+               "contactType": "Email",
+               "contactInfo": "email@support.com"
+          },
+          {
+               "key": 2,
+               "icon": "fa fa-map-marker",
+               "contactType": "Address",
+               "contactInfo": "1739 Bubby Drive"
+          }
+     ]
+}

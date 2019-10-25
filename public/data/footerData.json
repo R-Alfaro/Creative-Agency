@@ -1,0 +1,32 @@
+{
+     "footerLogo": "img/logo-alt.png",
+     "footerCopyright": "Copyright © 2017. All Rights Reserved. Designed by ",
+     "footerHref": "https://colorlib.com",
+     "footerLink": "Colorlib",
+     "footerFollowList": [
+          {
+               "key": 0,
+               "icon": "fa fa-facebook"
+          },
+          {
+               "key": 1,
+               "icon": "fa fa-twitter"
+          },
+          {
+               "key": 2,
+               "icon": "fa fa-google-plus"
+          },
+          {
+               "key": 3,
+               "icon": "fa fa-instagram"
+          },
+          {
+               "key": 4,
+               "icon": "fa fa-linkedin"
+          },
+          {
+               "key": 5,
+               "icon": "fa fa-youtube"
+          }
+     ]
+}
