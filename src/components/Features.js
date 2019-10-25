@@ -1,16 +1,12 @@
 import React, { Component } from 'react'
-import axios from 'axios';
-import FeatureContent from "./SupportingComponent/Feature/FeatureContent";
-import FeatureContentImages from "./SupportingComponent/Feature/FeatureContentImages";
+import FeatureContainer from './SupportingComponent/Feature/FeatureContainer';
+import DataService from './../hoc/dataService'
 
 class Features extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      sectionTitle: '',
-      sectionContect: '',
-      featureList: [],
       imageList: [
         {
           "key": 0,
@@ -40,48 +36,32 @@ class Features extends Component {
     }
   }
 
-  componentDidMount() {
-    axios.get('./data/featuresData.json')
-      .then(res => {
-        this.setState({
-          sectionTitle: JSON.parse(JSON.stringify(res.data.sectionTitle)),
-          sectionContect: JSON.parse(JSON.stringify(res.data.sectionContect)),
-          featureList: JSON.parse(JSON.stringify(res.data.featureList)),
-        })
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-  }
-
   render() {
-    const listItems = this.state.featureList.map((data) =>
-      <div className="feature" key={data.key}>
-        <i className={data.Icon}></i>
-        <p>{data.item}</p>
-      </div>
-    );
+
+    const { data } = this.props;
+    let listItems = [];
+
+    if (data !== '') {
+      listItems = data.featureList.map((data) =>
+        <div className="feature" key={data.key}>
+          <i className={data.Icon}></i>
+          <p>{data.item}</p>
+        </div>
+      );
+    }
 
     const imagelist = this.state.imageList.map((data) =>
       <img className="img-responsive" src={data.image} alt="" key={data.key} />
     );
 
     return (
-      <div id="features" className="section md-padding bg-grey">
-        <div className="container">
-          <div className="row">
-            <FeatureContent sectionTitle={this.state.sectionTitle} sectionContect={this.state.sectionContect} listItems={listItems} />
-            {/* <featurecontentimages imagelist={imagelist} /> */}
-            <div className="col-md-6">
-              <div id="about-slider" className="owl-carousel owl-theme">
-                {imagelist}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FeatureContainer
+        sectionTitle={data.sectionTitle}
+        sectionContect={data.sectionContect}
+        listItems={listItems}
+        imagelist={imagelist} />
     )
   }
 }
 
-export default Features;
+export default DataService(Features, './data/featuresData.json');

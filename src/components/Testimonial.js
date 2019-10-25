@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+import DataService from './../hoc/dataService'
 import TestimonialComponent from "./SupportingComponent/Testimonial/TestimonialComponent";
 import TestimonialContext from "./SupportingComponent/Testimonial/TestimonialContext"
 
@@ -13,13 +13,10 @@ class Testimonial extends Component {
         super(props);
 
         this.state = {
-            sectionOverlay: '',
-            sectionTitle: '',
-            sectionBackground: '',
             testimonialList: [{
                 key: 0,
                 image: './img/perso1.jpg',
-                title: 'Web Designer',
+                title: 'Java Designer',
                 content: 'Uno Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.',
                 name: 'John Doe'
             },
@@ -29,37 +26,41 @@ class Testimonial extends Component {
                 title: 'Web Developer',
                 content: 'Dos Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.',
                 name: 'Mike Smith'
+            },
+            {
+                "key": 2,
+                "image": "./img/perso1.jpg",
+                "title": "Web Engineer",
+                "content": "Tres Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.",
+                "name": "Kyle Williams"
             }]
         };
     }
 
-    componentDidMount() {
-        axios.get('./data/testimonalData.json')
-            .then(res => {
-                this.setState({
-                    sectionOverlay: JSON.parse(JSON.stringify(res.data.sectionOverlay)),
-                    sectionTitle: JSON.parse(JSON.stringify(res.data.sectionTitle)),
-                    sectionBackground: JSON.parse(JSON.stringify(res.data.sectionBackground)),
-                })
-            })
-            .catch(function (error) {
-                console.log(error);
-            })
-    }
-
     render() {
-        const listItems = this.state.testimonialList.map((data) =>
+        const { data } = this.props;
+        let listItems = [];
+
+        // if (data !== '') {
+        //     console.log("testimonialList2  => ", data.testimonialList);
+
+        //     listItems2 = this.state.testimonialList.map((data) =>
+        //         <TestimonialComponent key={data.key} data={data} />
+        //     );
+        // }
+
+        listItems = this.state.testimonialList.map((data) =>
             <TestimonialComponent key={data.key} data={data} />
         );
 
         return (
             <TestimonialContext
                 colorStyles={colorStyles}
-                sectionTitle={this.state.sectionTitle}
-                sectionBackground={this.state.sectionBackground}
+                sectionTitle={data.sectionTitle}
+                sectionBackground={data.sectionBackground}
                 listItems={listItems} />
         )
     }
 }
 
-export default Testimonial;
+export default DataService(Testimonial, './data/testimonalData.json');

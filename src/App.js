@@ -22,44 +22,43 @@ class App extends React.Component {
 				{/* Header Component with axios */}
 				<Header />
 
-				{/* About Component with axios */}
+				{/* About Component with axios and HOC */}
 				<About />
 
-				{/* Portfolio Component with axios */}
+				{/* Portfolio Component with axios and HOC */}
 				<Portfolio />
 
-				{/* Services Component with axios */}
+				{/* Services Component with axiosa and HOC */}
 				<Services />
 
-				{/* Features with axios */}
+				{/* Features Component with axios and HOC todo:images */}
 				<Features />
 
-				{/* numbers Component with axios  */}
+				{/* numbers Component with axios and HOC */}
 				<Numbers />
 
-				{/* pricing Component with axios  */}
+				{/* pricing Component with axios and HOC */}
 				<Pricing />
 
-				{/* testimonial Component with axios */}
+				{/* testimonial Component with axios and HOC todo:images */}
 				<Testimonial />
 
-				{/* team Component with axios */}
+				{/* team Component with axios and HOC */}
 				<Team />
 
-				{/* blog Component with axios */}
+				{/* blog Component with axios and HOC */}
 				<Blog />
 
-				{/* contact */}
+				{/* contact Component with axios */}
 				<Contact />
 
-				{/* footer */}
+				{/* footer Component with axios  */}
 				<Footer />
 
 				<div id="back-to-top"></div>
 
 				{/* Preloader */}
 				<Preloader />
-
 			</div>
 		);
 	}

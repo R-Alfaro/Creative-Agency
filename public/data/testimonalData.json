@@ -13,9 +13,16 @@
         {
             "key": 1,
             "image": "./img/perso2.jpg",
-            "title": "Web Developer",
+            "title": "Java Developer",
             "content": "Dos Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.",
-            "Name": "Mie Smith"
+            "Name": "Mike Smith"
+        },
+        {
+            "key": 2,
+            "image": "./img/perso1.jpg",
+            "title": "Web Engineer",
+            "content": "Tres Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.",
+            "name": "Kyle Williams"
         }
     ]
 }

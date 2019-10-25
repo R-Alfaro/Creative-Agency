@@ -1,31 +1,19 @@
 import React from "react";
 
-const ContactInfo = props => (
+const ContactInformation = props => (
      <div>
-          <div className="col-sm-4">
-               <div className="contact">
-                    <i className="fa fa-phone"></i>
-                    <h3>Phone</h3>
-                    <p>512-421-3940</p>
-               </div>
-          </div>
-
-          <div className="col-sm-4">
-               <div className="contact">
-                    <i className="fa fa-envelope"></i>
-                    <h3>Email</h3>
-                    <p>email@support.com</p>
-               </div>
-          </div>
-
-          <div className="col-sm-4">
-               <div className="contact">
-                    <i className="fa fa-map-marker"></i>
-                    <h3>Address</h3>
-                    <p>1739 Bubby Drive</p>
-               </div>
-          </div>
+          {props.contactList.map((value, index) => {
+               return (
+                    <div className="col-sm-4" key={value.key}>
+                         <div className="contact">
+                              <i className={value.icon}></i>
+                              <h3>{value.contactType}</h3>
+                              <p>{value.contactInfo}</p>
+                         </div>
+                    </div>
+               )
+          })}
      </div>
 )
 
-export default ContactInfo;
+export default ContactInformation;
